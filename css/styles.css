@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f9;
+}
+h1 {
+    margin-bottom: 20px;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    margin: 10px 0;
+}
+nav ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #333;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
